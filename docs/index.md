@@ -1,11 +1,6 @@
----
-title: Home
-hide:
-  - title
----
-
 # DesertMIP
-### Desertification Model Intercomparison Project
+
+## Desertification Model Intercomparison Project
 **A MIP registered with the WCRP-CMIP7 framework**
 
 ---
@@ -15,6 +10,7 @@ hide:
 </p>
 
 ## About DesertMIP
+
 Deserts are the primary natural source of atmospheric mineral dust, accounting for ~75% of global aerosols, and exhibit extreme climate sensitivity ("desert amplification"). However, current Earth System Models (ESMs) within the Coupled Model Intercomparison Project (CMIP) framework typically rely on static desert masks. 
 
 In an era of rapid climate shifts, this critical limitation obscures potential Earth system tipping points and induces systematic biases in dust emission simulations (up to 100%) and regional warming projections. **DesertMIP** is designed to address this gap by providing the first multi-model assessment of *dynamic* desert boundaries and their cascading dust-climate-ecosystem feedbacks in CMIP7-class models.
