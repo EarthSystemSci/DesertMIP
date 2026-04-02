@@ -3,7 +3,7 @@
 The DesertMIP framework is coordinated by an international steering committee dedicated to advancing the representation of arid environments in Earth System Models. 
 
 ## Lead Coordinators
-* **Dr. Marzieh Mokarram**  
+* **Prof. Marzieh Mokarram**  
   *Role:* Lead Contact & Principal Coordinator  
   *Focus:* Spatial modeling, dynamic boundary generation, and project administration within the CMIP7 framework.
 
