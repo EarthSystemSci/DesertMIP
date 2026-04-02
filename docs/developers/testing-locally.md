@@ -1,73 +1,19 @@
-# Testing Locally
+# Offline and Standalone Testing
 
-How to preview your site on your computer before publishing.
+Before integrating the DesertMIP dynamic forcing datasets into fully coupled Earth System Models (ESMs), we strongly recommend that participating modeling groups perform offline or standalone testing of their land surface models (LSMs).
 
-## Prerequisites
+## Why Run Offline Tests?
+Testing the dynamic bare-soil and vegetation fractions locally (in standalone mode) allows modeling centers to:
+1. **Verify Data Ingestion:** Ensure the correct regridding and ingestion of the high-resolution DesertMIP forcing data into your specific model grid.
+2. **Evaluate Surface Fluxes:** Assess the immediate impact of dynamic desert boundaries on surface albedo, sensible/latent heat fluxes, and dust emission without the complexity of atmospheric feedbacks.
+3. **Save Computational Resources:** Identify and resolve any numerical instabilities or surface energy balance issues before committing expensive supercomputing resources to fully coupled historical or future runs.
 
-- [Python 3.8+](https://www.python.org/downloads/)
-- [Git](https://git-scm.com/downloads)
+## Recommended Testing Protocol
+* **Single-Point/Column Runs:** Start by running your LSM at selected desert boundary grid cells (e.g., the Sahel region or Central Asia) where the dynamic forcing exhibits the highest interannual variability.
+* **Regional Offline Runs:** Perform a regional simulation over major dust-source regions (e.g., North Africa, Middle East, Gobi Desert). We recommend driving the offline LSM with standard reanalysis data (e.g., ERA5 or MERRA-2) combined with the DesertMIP dynamic masks.
+* **Validation:** Compare the offline dust emission fluxes and surface energy budgets against standard satellite products (e.g., MODIS surface albedo) and ground observations (e.g., AERONET).
 
-## Setup
+## Technical Scripts and Tools
+To facilitate this process, we will provide sample Python and NCL scripts for regridding the forcing data and setting up offline tests for common land surface models (such as CLM, JSBACH, and JULES). 
 
-Clone your repository and install dependencies:
-
-```bash
-git clone https://github.com/YOUR-ORG/YOUR-REPO.git
-cd YOUR-REPO
-
-# Create virtual environment (recommended)
-python -m venv venv
-
-# Activate it
-source venv/bin/activate      # Mac/Linux
-venv\Scripts\activate         # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## Run the Development Server
-
-```bash
-mkdocs serve
-```
-
-Open **http://127.0.0.1:8000** in your browser.
-
-The site automatically refreshes when you save changes to any file.
-
-Press `Ctrl+C` to stop the server.
-
-## Making Changes
-
-1. Edit files in the `docs/` folder
-2. Save the file
-3. Check your browser - changes appear immediately
-4. When happy, commit and push:
-
-```bash
-git add .
-git commit -m "Description of changes"
-git push
-```
-
-## Troubleshooting
-
-**"mkdocs: command not found"**
-
-Activate your virtual environment:
-```bash
-source venv/bin/activate
-```
-
-**"Port 8000 already in use"**
-
-Use a different port:
-```bash
-mkdocs serve -a localhost:8001
-```
-
-**Changes not showing**
-
-- Hard refresh your browser: `Ctrl+Shift+R` (Windows/Linux) or `Cmd+Shift+R` (Mac)
-- Check for syntax errors in your markdown
+Please check our [GitHub Repository](https://github.com/EarthSystemSci/DesertMIP) for the latest tools and diagnostic scripts.
