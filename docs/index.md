@@ -1,51 +1,7 @@
-<style>
-  .desertmip-box {
-    border: 1px solid #cbd5e1;
-    border-radius: 12px;
-    padding: 40px;
-    background-color: #f8fafc;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #334155;
-    line-height: 1.8;
-    margin-top: 20px;
-  }
-  .desertmip-box h1, .desertmip-box h2, .desertmip-box h3 {
-    color: #1e3a8a !important; /* رنگ آبی تیره برای تیترها */
-    font-weight: 700;
-  }
-  .desertmip-box h1 {
-    text-align: center;
-    font-size: 2.2em;
-    margin-bottom: 5px;
-  }
-  .desertmip-box .subtitle {
-    text-align: center;
-    color: #475569;
-    font-size: 1.1em;
-    font-weight: 600;
-    margin-bottom: 30px;
-  }
-  .desertmip-box h2 {
-    margin-top: 40px;
-    border-bottom: 1px solid #e2e8f0; /* خط ملایم زیر تیترهای اصلی */
-    padding-bottom: 8px;
-    font-size: 1.5em;
-  }
-  .desertmip-box ul {
-    margin-top: 10px;
-  }
-  .desertmip-box li {
-    margin-bottom: 12px;
-  }
-  .desertmip-box strong {
-    color: #0f172a;
-  }
-</style>
-
-<div class="desertmip-box" markdown="1">
-
 # DesertMIP (Desertification Model Intercomparison Project)
-<div class="subtitle">A MIP registered with the WCRP-CMIP7 framework</div>
+**A MIP registered with the WCRP-CMIP7 framework**
+
+---
 
 <p align="center">
   <img src="banner.png" alt="DesertMIP Conceptual Map" width="500" style="border-radius: 12px; margin: 10px 0 20px 0;">
@@ -75,5 +31,3 @@ DesertMIP strongly aligns with the broader CMIP7 objectives. We provide the miss
 
 ## Steering Committee & Contact
 **Lead Contact:** Marzieh Mokarram (On behalf of the DesertMIP Steering Committee)
-
-</div>
