@@ -1,46 +1,26 @@
-# Getting Started
+# Getting Started for Modeling Centers
 
-How to create your own MIP documentation site from this template.
+Welcome to the participation guide for **DesertMIP**. We actively encourage climate modeling groups participating in the CMIP7 cycle to incorporate our dynamic desert boundary datasets into their experimental runs. 
 
-## Step 1: Create Your Repository
+Here is the step-by-step guide on how your modeling center can participate in DesertMIP:
 
-1. Go to the [MIP-template repository](https://github.com/WCRP-CMIP/MIP-template)
-2. Click the green **Use this template** button
-3. Select **Create a new repository**
-4. Choose your organization and enter a repository name
-5. Click **Create repository**
+## Step 1: Express Interest and Register
+If your modeling center is interested in running DesertMIP experiments, please get in touch with the co-chairs (Dr. Marzieh Mokarram & Prof. Huayu Lu) to register your model. This ensures you receive the latest updates, technical support, and notifications regarding forcing data releases.
 
-## Step 2: Configure Your Site
+## Step 2: Access the Forcing Data
+DesertMIP provides time-varying, high-resolution datasets for bare-soil and vegetation fractions to replace static climatologies.
+* **Current Status:** The Tier-1 forcing datasets are currently undergoing final quality control and validation.
+* **Download Access:** Once finalized, all datasets will be hosted publicly on **ESGF** nodes and mirrored on **Zenodo** for easy access. Download links, `wget` scripts, and Python APIs will be provided on the Resources page.
 
-Edit `mkdocs.yml` directly on GitHub:
+## Step 3: Experimental Setup
+Modeling centers are required to integrate our dynamic forcing into their land-surface and atmospheric modules.
+* Please review the **Experiments** page for detailed mathematical formulations and the specific protocols for `desert-hist-dyn` and future SSP scenarios.
+* Ensure synergy with your LUMIP and AerChemMIP configurations, as these interactions are crucial for evaluating dust-radiation feedbacks.
 
-1. Click on `mkdocs.yml` in your new repository
-2. Click the pencil icon (Edit this file)
-3. Update these lines at the top:
+## Step 4: Output Submission and CMORization
+To ensure consistency across all participating models, all outputs must comply with standard CMIP7 data formats.
+* Variables must be CMORized according to the official CMIP7 Data Request.
+* Detailed instructions for uploading your model results to the Earth System Grid Federation (ESGF) will be provided closer to the submission phase.
 
-```yaml
-site_name: Your MIP Name
-site_description: Brief description of your MIP
-site_author: Your Organization
-site_url: https://your-org.github.io/your-repo/
-```
-
-4. Click **Commit changes**
-
-## Step 3: Enable GitHub Pages
-
-1. Go to **Settings** in your repository
-2. Click **Pages** in the left sidebar
-3. Under "Build and deployment", select **Deploy from a branch**
-4. Select **gh-pages** branch and **/ (root)** folder
-5. Click **Save**
-
-Your site will be live at: `https://YOUR-ORG.github.io/YOUR-REPO/`
-
-!!! note
-    The gh-pages branch is created automatically after your first commit to main. If you don't see it, make a small edit to any file and commit it.
-
-## Next Steps
-
-- [Updating Content](updating-content.md) - How to edit pages and navigation
-- [Testing Locally](testing-locally.md) - Preview changes on your computer
+## Technical Support
+If you encounter technical issues regarding the implementation of the forcing datasets, regridding processes, or model integration, please open an issue on our [GitHub Repository](https://github.com/EarthSystemSci/DesertMIP) or reach out to the project's technical team.
