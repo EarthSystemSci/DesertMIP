@@ -5,19 +5,16 @@ site_url: https://EarthSystemSci.github.io/DesertMIP/
 repo_url: https://github.com/EarthSystemSci/DesertMIP
 repo_name: EarthSystemSci/DesertMIP
 
-# Use relative URLs within pages
 use_directory_urls: true
 
 # Theme configuration
 theme:
-  name: material
-  palette:
-    primary: indigo
-    accent: blue
+  name: shadcn
 
 # Plugins
 plugins:
   - search
+
 
 # Custom CSS and JavaScript
 extra_css:
