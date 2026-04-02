@@ -32,7 +32,7 @@ Highly recommended for in-depth regional sensitivity analyses and surface energy
 All generated datasets must strictly adhere to WCRP CMIP7 protocols and FAIR principles.
 
 ### Naming Conventions
-Files must be structured using the official CMIP7 file naming convention:
+Files must be structured using the official CMIP7 file naming convention: 
 `<variable>_<table>_<model>_<experiment>_<variant>_<grid>_<time>.nc`
 
 *Example:* `emidust_AERmon_ModelName_desert-hist-dyn_r1i1p1f1_gn_198001-201412.nc`
