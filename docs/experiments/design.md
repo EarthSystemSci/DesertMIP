@@ -46,9 +46,9 @@ Participating models should:
 ## Timeline
 | Milestone | Target Date |
 | :--- | :--- |
-| Experimental Protocol Finalized | Q3 2024 |
-| Forcing Datasets Released | Q4 2024 |
-| First Model Submissions Expected | Q2 2025 |
-| Initial Multi-Model Analysis Deadline | Q4 2025 |
+| Experimental Protocol Finalized | Q1 2026 |
+| Forcing Datasets Released | Q2 2026 |
+| First Model Submissions Expected | Q4 2026 |
+| Initial Multi-Model Analysis Deadline | Q2 2027 |
 
 *Have questions about the experimental design? Contact the [Steering Committee](../developers/committee.md) for further clarification.*
