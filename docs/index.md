@@ -1,11 +1,12 @@
+<div markdown="1" style="border: 1px solid #e5e7eb; border-radius: 15px; padding: 30px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); background-color: #ffffff; margin-top: 20px;">
+
 # DesertMIP (Desertification Model Intercomparison Project)
 **A MIP registered with the WCRP-CMIP7 framework**
 
 ---
 <p align="center">
-  <img src="banner.png" alt="DesertMIP Conceptual Map" width="300" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <img src="banner.png" alt="DesertMIP Conceptual Map" width="500" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </p>
-
 
 ## About DesertMIP
 Deserts are the primary natural source of atmospheric mineral dust, accounting for ~75% of global aerosols, and exhibit extreme climate sensitivity ("desert amplification"). However, current Earth System Models (ESMs) within the Coupled Model Intercomparison Project (CMIP) framework typically rely on static desert masks. 
@@ -32,5 +33,4 @@ DesertMIP strongly aligns with the broader CMIP7 objectives. We provide the miss
 ## Steering Committee & Contact
 **Lead Contact:** Marzieh Mokarram (On behalf of the DesertMIP Steering Committee)
 
-*More details regarding experimental protocols, data access, and participation guidelines will be published here shortly.*
-
+</div>
