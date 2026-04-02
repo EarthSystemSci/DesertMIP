@@ -1,8 +1,11 @@
 ---
-title: DesertMIP (Desertification Model Intercomparison Project)
+title: Home
+hide:
+  - title
 ---
 
-# DesertMIP (Desertification Model Intercomparison Project)
+# DesertMIP
+### Desertification Model Intercomparison Project
 **A MIP registered with the WCRP-CMIP7 framework**
 
 ---
