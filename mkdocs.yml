@@ -10,10 +10,11 @@ use_directory_urls: true
 
 # Theme configuration
 theme:
-  name: shadcn
+theme:
+  name: material
   palette:
-    primary: blue
-    accent: cyan
+    primary: indigo
+    accent: blue
   show_stargazers: false
 
 # Plugins
