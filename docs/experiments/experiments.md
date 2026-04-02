@@ -5,16 +5,16 @@ The core objective of DesertMIP is to evaluate the impact of transient desert bo
 ## Tier-1 Experiments: Historical & Future Baselines
 Tier-1 experiments are mandatory for participating modeling centers. They focus on isolating the effect of dynamic desert expansion and contraction.
 
-* **DesertMIP-Hist (Historical):** 
-  ESMs will run the standard historical simulation (1850–present), but the static bare-soil and vegetation fractions will be replaced by the DesertMIP transient forcing dataset. 
-  *Key metric:* Evaluation of historical dust emission trends and regional surface energy balance.
+* **DesertMIP-Hist (Historical):** ESMs will run the standard historical simulation (1850–present), but the static bare-soil and vegetation fractions will be replaced by the DesertMIP transient forcing dataset.
+  * **Key metric:** Evaluation of historical dust emission trends and regional surface energy balance.
 
-* **DesertMIP-SSP (Future Projection):** 
-  Based on a selected Shared Socioeconomic Pathway (e.g., SSP3-7.0), models will use projected dynamic desert boundaries up to the year 2100. This experiment tests the impact of severe desertification and its feedbacks on the climate system.
+* **DesertMIP-SSP (Future Projection):** Based on a selected Shared Socioeconomic Pathway (e.g., SSP3-7.0), models will use projected dynamic desert boundaries up to the year 2100. This experiment tests the impact of severe desertification and its feedbacks on the climate system.
 
 ## Mathematical Formulation of the Forcing
-In standard ESMs, the surface is partitioned into various fractions. DesertMIP provides updated time-varying arrays for bare-soil fraction ($f_{bare}$) and vegetation fraction ($f_{veg}$), ensuring mass and energy conservation such that:
-$$f_{bare}(t) + f_{veg}(t) + f_{other}(t) = 100\%$$
+In standard ESMs, the surface is partitioned into various fractions. DesertMIP provides updated time-varying arrays for bare-soil fraction ($f_{\text{bare}}$) and vegetation fraction ($f_{\text{veg}}$), ensuring mass and energy conservation such that:
+
+$$ f_{\text{bare}}(t) + f_{\text{veg}}(t) + f_{\text{other}}(t) = 1 $$
+
 Where $t$ represents the transient monthly time step.
 
 ## Synergies with Other MIPs
