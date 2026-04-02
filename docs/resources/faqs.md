@@ -1,49 +1,46 @@
-# FAQs
+# Frequently Asked Questions (FAQs)
 
 ## General Questions
 
-??? question "What is Your MIP?"
-    Your MIP is a Model Intercomparison Project that coordinates climate model experiments focused on [topic]. It is part of CMIP, organized by the World Climate Research Programme.
+### What is DesertMIP?
+DesertMIP (Desertification Model Intercomparison Project) is an endorsed CMIP7 project designed to evaluate the climate impacts of transient desert boundaries and dynamic land-cover changes, comparing them against traditional static surface masks.
 
-??? question "How do I participate?"
-    Modeling groups can participate by:
-    
-    1. Reviewing the [Experiment Design](../experiments/design.md)
-    2. Running the required experiments
-    3. Publishing data through ESGF
-    4. Contacting the [Steering Committee](../about/committee.md)
+### How do I participate?
+Modeling groups interested in participating should first review our experimental protocols (Tier-1). Please contact the Steering Committee to formally register your Earth System Model (ESM).
 
-??? question "Is my model eligible?"
-    Any Earth system model or climate model participating in CMIP can contribute. Contact the co-chairs if you have questions about eligibility.
-
-## Data Questions
-
-??? question "Where can I find Your MIP data?"
-    Data is available through the [ESGF portal](https://esgf-node.llnl.gov/search/cmip6/). Search for experiment names listed in our [Experiment Design](../experiments/design.md).
-
-??? question "How should I cite the data?"
-    Please cite:
-    
-    - The relevant protocol paper
-    - Individual model datasets per CMIP guidelines
-    - See [Publications](../about/publications.md) for details
-
-??? question "What variables are available?"
-    See our [Data Requirements](../experiments/data.md) page for the complete list of requested variables.
-
-## Technical Questions
-
-??? question "What forcing datasets should I use?"
-    Use the official CMIP7 forcing datasets. Details are in the [Experiment Design](../experiments/design.md).
-
-??? question "What is the experiment naming convention?"
-    Experiment names follow the pattern `your-mip-exp-name`. See the experiment tables in [Experiment Design](../experiments/design.md).
-
-## Contributing to This Site
-
-??? question "How do I suggest changes to this website?"
-    See the [For Developers](../developers/getting-started.md) section for instructions on contributing changes via GitHub.
+### Is my model eligible?
+Any ESM participating in CMIP7 that includes an interactive land-surface model capable of prescribing external time-varying bare-soil and vegetation fractions ($f_{\text{bare}}$, $f_{\text{veg}}$) is eligible.
 
 ---
 
-Have a question not answered here? Contact the [Steering Committee](../about/committee.md).
+## Data Questions
+
+### Where can I find DesertMIP data?
+All forcing datasets and model outputs will be hosted on the official Earth System Grid Federation (ESGF) nodes under the CMIP7/DesertMIP project tag.
+
+### How should I cite the data?
+When using DesertMIP datasets, please cite our official experimental design paper (currently in preparation for *Geoscientific Model Development - GMD*) along with the specific DOIs assigned to the ESGF datasets.
+
+### What variables are available?
+We focus heavily on land-surface and aerosol feedback variables. Key required variables include dust emissions (`emidust`), surface wind (`sfcWind`), and leaf area index (`lai`). Please refer to the **Data** page for a complete list.
+
+---
+
+## Technical Questions
+
+### What forcing datasets should I use?
+Participating models must use the official DesertMIP transient forcing dataset, which provides updated monthly arrays for bare-soil and vegetation fractions from 1850 to 2100.
+
+### What is the experiment naming convention?
+We strictly follow the CMIP7 naming conventions. For example, files must be named using the format:
+`<variable>_<table>_<model>_<experiment>_<variant>_<grid>_<time>.nc`
+
+---
+
+## Contributing to This Site
+
+### How do I suggest changes to this website?
+The DesertMIP website is open-source. You can suggest changes by submitting an issue or a Pull Request (PR) directly on our GitHub repository.
+
+### Have a question not answered here? 
+Contact the [Steering Committee](../developers/committee.md) for further assistance.
