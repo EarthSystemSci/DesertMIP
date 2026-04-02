@@ -1,19 +1,21 @@
-# Offline and Standalone Testing
+# Advanced Modular and Offline Testing
 
-Before integrating the DesertMIP dynamic forcing datasets into fully coupled Earth System Models (ESMs), we strongly recommend that participating modeling groups perform offline or standalone testing of their land surface models (LSMs).
+Before integrating the DesertMIP dynamic boundary datasets into fully coupled Earth System Models (ESMs), participating modeling groups are highly encouraged to perform modular, uncoupled, or standalone testing of their respective sub-components (e.g., land-surface, aerosol, and atmospheric modules).
 
-## Why Run Offline Tests?
-Testing the dynamic bare-soil and vegetation fractions locally (in standalone mode) allows modeling centers to:
-1. **Verify Data Ingestion:** Ensure the correct regridding and ingestion of the high-resolution DesertMIP forcing data into your specific model grid.
-2. **Evaluate Surface Fluxes:** Assess the immediate impact of dynamic desert boundaries on surface albedo, sensible/latent heat fluxes, and dust emission without the complexity of atmospheric feedbacks.
-3. **Save Computational Resources:** Identify and resolve any numerical instabilities or surface energy balance issues before committing expensive supercomputing resources to fully coupled historical or future runs.
+## Rationale for Modular Testing
+Evaluating the dynamic forcing in an isolated or semi-coupled environment provides several critical advantages:
+1. **Grid-scale Ingestion Validation:** Ensures that the high-resolution, spatiotemporal boundary conditions are accurately mapped onto the native model grids using advanced, mass-conserving interpolation techniques.
+2. **Component-level Sensitivity:** Allows centers to isolate and evaluate immediate physical responses—such as perturbations in the surface energy balance, aerodynamic roughness, and baseline dust emission rates—without the confounding noise of full atmospheric feedbacks.
+3. **Computational Optimization:** Identifies potential numerical instabilities or energy closure issues in a computationally efficient environment prior to executing resource-intensive transient historical or future scenarios.
 
-## Recommended Testing Protocol
-* **Single-Point/Column Runs:** Start by running your LSM at selected desert boundary grid cells (e.g., the Sahel region or Central Asia) where the dynamic forcing exhibits the highest interannual variability.
-* **Regional Offline Runs:** Perform a regional simulation over major dust-source regions (e.g., North Africa, Middle East, Gobi Desert). We recommend driving the offline LSM with standard reanalysis data (e.g., ERA5 or MERRA-2) combined with the DesertMIP dynamic masks.
-* **Validation:** Compare the offline dust emission fluxes and surface energy budgets against standard satellite products (e.g., MODIS surface albedo) and ground observations (e.g., AERONET).
+## Recommended Testing Protocols
+Rather than prescribing specific algorithms, we recommend adopting generalized, state-of-the-art testing frameworks:
 
-## Technical Scripts and Tools
-To facilitate this process, we will provide sample Python and NCL scripts for regridding the forcing data and setting up offline tests for common land surface models (such as CLM, JSBACH, and JULES). 
+* **Idealized and Single-Column Frameworks (SCMs):** Utilize 1-D or limited-domain configurations to strictly test surface-atmosphere parameterizations over regions with the highest interannual variability in desert boundaries (e.g., transition zones).
+* **Regional High-Resolution Testbeds:** Drive standalone modules with standard high-fidelity reanalysis forcing (e.g., capturing realistic meteorology) combined with the DesertMIP dynamic masks over primary dust-source regions. 
+* **Multi-variate Diagnostic Validation:** Employ comprehensive, data-driven evaluation pipelines to benchmark offline outputs against a suite of multi-sensor Earth Observation (EO) products and ground-based measurement networks before proceeding to coupled runs.
 
-Please check our [GitHub Repository](https://github.com/EarthSystemSci/DesertMIP) for the latest tools and diagnostic scripts.
+## Diagnostic Pipelines and Support
+To ensure broad compatibility across diverse modeling architectures, the DesertMIP technical team will provide open-source, generalized pre-processing pipelines. These include scalable regridding tools and spatiotemporal diagnostic scripts designed to be framework-agnostic.
+
+For the latest integration guidelines, regridding utilities, and diagnostic packages, please visit our [GitHub Repository](https://github.com/EarthSystemSci/DesertMIP).
