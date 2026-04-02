@@ -4,9 +4,9 @@
 ---
 
 ## About DesertMIP
-Deserts are the primary natural source of atmospheric mineral dust, accounting for $\sim 75\%$ of global aerosols, and exhibit extreme climate sensitivity ("desert amplification"). However, current Earth System Models (ESMs) within the Coupled Model Intercomparison Project (CMIP) framework typically rely on static desert masks. 
+Deserts are the primary natural source of atmospheric mineral dust, accounting for ~75% of global aerosols, and exhibit extreme climate sensitivity ("desert amplification"). However, current Earth System Models (ESMs) within the Coupled Model Intercomparison Project (CMIP) framework typically rely on static desert masks. 
 
-This critical limitation induces systematic biases in dust emission simulations (up to $100\%$) and regional warming projections. **DesertMIP** is designed to address this gap by providing the first multi-model assessment of *dynamic* desert boundaries and their subsequent dust-climate feedbacks in CMIP7-class models.
+This critical limitation induces systematic biases in dust emission simulations (up to 100%) and regional warming projections. **DesertMIP** is designed to address this gap by providing the first multi-model assessment of *dynamic* desert boundaries and their subsequent dust-climate feedbacks in CMIP7-class models.
 
 ---
 
