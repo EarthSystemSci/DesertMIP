@@ -8,7 +8,7 @@ Deserts are highly dynamic, expanding and contracting in response to anthropogen
 ## Why DesertMIP Matters
 The inclusion of dynamic boundaries addresses several fundamental gaps in current Earth System modeling:
 
-1. **Dust Cycle Accuracy:** Arid regions are responsible for $\sim 75\%$ of global mineral dust emissions. Static masks fail to capture the activation of new dust sources caused by desertification, leading to massive underestimations in future dust loads.
+1. **Dust Cycle Accuracy:** Arid regions are responsible for ~75% of global mineral dust emissions. Static masks fail to capture the activation of new dust sources caused by desertification, leading to massive underestimations in future dust loads.
 2. **Desert Amplification:** Deserts warm significantly faster than the global average. Expanding desert boundaries means expanding zones of extreme sensible heat fluxes, which directly alter regional atmospheric circulations (e.g., weakening or shifting monsoon systems).
 3. **Biogeochemical Feedbacks:** Altered dust emissions directly impact marine ecosystems (through iron/phosphorus deposition) and the terrestrial carbon sink. 
 4. **Tipping Points:** Semi-arid transition zones are highly vulnerable. DesertMIP helps identify at what warming thresholds these regions permanently transition to hyper-arid states.
