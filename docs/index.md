@@ -1,5 +1,5 @@
 # DesertMIP (Desertification Model Intercomparison Project)
-**An Official Endorsed MIP within the WCRP-CMIP7 Framework**
+**A MIP registered with the WCRP-CMIP7 framework**
 
 ---
 
