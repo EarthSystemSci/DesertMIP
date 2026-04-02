@@ -26,7 +26,7 @@ DesertMIP strongly aligns with the broader CMIP7 objectives. We provide the miss
 * **Current Phase:** Finalizing Tier-1 experimental design and drafting the primary Geoscientific Model Development (GMD) paper (Call for Participation).
 
 ## Steering Committee & Contact
-**Lead Contact:** Mokarram (On behalf of the DesertMIP Steering Committee)
+**Lead Contact:** Marzieh Mokarram (On behalf of the DesertMIP Steering Committee)
 
 *More details regarding experimental protocols, data access, and participation guidelines will be published here shortly.*
 
