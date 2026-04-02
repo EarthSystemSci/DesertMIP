@@ -1,0 +1,101 @@
+name: Deploy MkDocs with Versioning
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure Git
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+
+      - name: Get current version
+        id: get_version
+        run: |
+          # Fetch gh-pages to get version history
+          git fetch origin gh-pages --depth=1 2>/dev/null || true
+          
+          # Try to get the latest version from mike, default to 0.0.0
+          CURRENT=$(mike list 2>/dev/null | grep -oE '^[0-9]+\.[0-9]+\.[0-9]+' | head -1 || echo "")
+          if [ -z "$CURRENT" ]; then
+            CURRENT="0.0.0"
+          fi
+          echo "current=$CURRENT" >> $GITHUB_OUTPUT
+          echo "Current version: $CURRENT"
+
+      - name: Check for new pages
+        id: check_pages
+        run: |
+          # Check if any .md files were added in docs/
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            NEW_PAGES=$(git diff --name-status HEAD~1 HEAD -- 'docs/*.md' 'docs/**/*.md' 2>/dev/null | grep '^A' | wc -l || echo "0")
+          else
+            NEW_PAGES="0"
+          fi
+          
+          if [ "$NEW_PAGES" -gt 0 ]; then
+            echo "new_pages=true" >> $GITHUB_OUTPUT
+            echo "New pages detected: $NEW_PAGES files"
+          else
+            echo "new_pages=false" >> $GITHUB_OUTPUT
+            echo "No new pages detected"
+          fi
+
+      - name: Calculate new version
+        id: new_version
+        run: |
+          CURRENT="${{ steps.get_version.outputs.current }}"
+          NEW_PAGES="${{ steps.check_pages.outputs.new_pages }}"
+          
+          # Parse version components
+          MAJOR=$(echo $CURRENT | cut -d. -f1)
+          MINOR=$(echo $CURRENT | cut -d. -f2)
+          PATCH=$(echo $CURRENT | cut -d. -f3)
+          
+          if [ "$NEW_PAGES" = "true" ]; then
+            # Minor version bump for new pages
+            MINOR=$((MINOR + 1))
+            PATCH=0
+          else
+            # Patch version bump for updates
+            PATCH=$((PATCH + 1))
+          fi
+          
+          NEW_VERSION="${MAJOR}.${MINOR}.${PATCH}"
+          echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
+          echo "New version: $NEW_VERSION"
+
+      - name: Deploy with mike
+        run: |
+          VERSION="${{ steps.new_version.outputs.version }}"
+          
+          # Delete 'latest' if it exists as a version (not alias) to avoid conflicts
+          mike delete latest 2>/dev/null || true
+          
+          # Deploy the new version with 'latest' alias
+          mike deploy --push --update-aliases "$VERSION" latest
+          mike set-default --push latest
+          echo "Deployed version $VERSION"

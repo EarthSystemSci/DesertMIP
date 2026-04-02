@@ -1,0 +1,47 @@
+site_name: Your MIP Name
+site_description: Description of your Model Intercomparison Project
+site_author: WCRP-CMIP
+site_url: https://wcrp-cmip.github.io/MIP-template/
+repo_url: https://github.com/WCRP-CMIP/MIP-template
+repo_name: WCRP-CMIP/MIP-template
+
+# Use relative URLs within pages
+use_directory_urls: true
+
+# Theme configuration
+theme:
+  name: shadcn
+  palette:
+    primary: blue
+    accent: cyan
+  show_stargazers: false
+
+# Plugins
+plugins:
+  - search
+
+# Custom CSS and JavaScript
+extra_css:
+  - assets/custom.css
+
+extra_javascript:
+  - assets/custom.js
+
+# Navigation is auto-generated from folder structure
+
+# Markdown extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+# Versioning
+extra:
+  version:
+    provider: mike
+    default: latest
