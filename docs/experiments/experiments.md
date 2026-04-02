@@ -13,11 +13,12 @@ Tier-1 experiments are mandatory for participating modeling centers. They focus 
 
 ## Mathematical Formulation of the Forcing
 
-In standard ESMs, the surface is partitioned into various fractions. DesertMIP provides updated time-varying arrays for bare-soil fraction ($f_{\text{bare}}$) and vegetation fraction ($f_{\text{veg}}$), ensuring mass and energy conservation such that:
+In standard ESMs, the surface is partitioned into various fractions. DesertMIP provides updated time-varying arrays for bare-soil fraction (<i>f</i><sub>bare</sub>) and vegetation fraction (<i>f</i><sub>veg</sub>), ensuring mass and energy conservation such that:
 
-$$ f_{\text{bare}}(t) + f_{\text{veg}}(t) + f_{\text{other}}(t) = 1 $$
+> **<i>f</i><sub>bare</sub>(t) + <i>f</i><sub>veg</sub>(t) + <i>f</i><sub>other</sub>(t) = 1**
 
-where $t$ represents the transient monthly time step.
+where *t* represents the transient monthly time step.
+
 
 ## Synergies with Other MIPs
 
