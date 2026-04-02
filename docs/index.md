@@ -30,8 +30,3 @@ DesertMIP strongly aligns with the broader CMIP7 objectives. We provide the miss
 
 *More details regarding experimental protocols, data access, and participation guidelines will be published here shortly.*
 
-## Steering Committee & Contact
-**Lead Contact:** Mokarram 
-*On behalf of the DesertMIP Steering Committee*
-
-*More details regarding experimental protocols, data access, and participation guidelines will be published here shortly.*
