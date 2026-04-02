@@ -1,18 +1,32 @@
-# Data & Resources
+# Input Forcing Datasets & Code Repository
 
-DesertMIP is committed to open science and providing high-quality forcing datasets for the climate modeling community.
+DesertMIP is strongly committed to open science. We provide high-fidelity, spatiotemporally dynamic boundary condition datasets to the global climate modeling community to facilitate the execution of our experimental protocol.
 
-## Forcing Datasets
-Our primary output for ESM developers is the **DesertMIP Transient Boundary Dataset (v1.0)**. 
-* **Spatial Resolution:** Native $0.25^\circ \times 0.25^\circ$ (regridded to standard CMIP resolutions).
-* **Temporal Resolution:** Monthly transients.
-* **Format:** NetCDF4 (CF-compliant).
+## Official Forcing Datasets
 
-This dataset is derived from a combination of high-resolution satellite products (including ESA WorldCover and MODIS) and machine learning-driven algorithms that predict future boundary shifts under various SSPs.
+Our primary scientific output for Earth System Model (ESM) developers is the **DesertMIP Transient Boundary Dataset (v1.0)**. 
 
-## Data Access
-*The forcing datasets for Tier-1 experiments are currently undergoing internal validation.* 
-Once the GMD protocol paper is published, the data will be hosted on the **Earth System Grid Federation (ESGF)** and a secondary mirror on **Zenodo** with a registered DOI for easy access.
+### Dataset Specifications
+* **Spatial Resolution:** Native $0.25^\circ \times 0.25^\circ$ (with conservative regridding tools available for standard CMIP resolutions).
+* **Temporal Resolution:** Monthly transient states (capturing seasonal and interannual boundary shifts).
+* **Format:** NetCDF4 (Strictly CF-compliant).
+* **Methodology:** This dataset is derived from a synergetic combination of high-resolution Earth Observation records (e.g., ESA WorldCover, MODIS) and advanced predictive algorithms forecasting future expansion/contraction under distinct Shared Socioeconomic Pathways (SSPs).
 
-## Code Repository
-All pre-processing scripts, boundary generation algorithms, and evaluation notebooks used by the DesertMIP steering committee will be available in our GitHub organization under an MIT License. Researchers are encouraged to use these tools to process the forcing data for their specific ESM grids.
+## Data Access Pathways
+
+The forcing datasets for Tier-1 transient experiments are currently undergoing final internal validation and spatial smoothing to prevent numerical shocks in coupled models. 
+
+Upon the publication of our experimental design protocol in *Geoscientific Model Development (GMD)*, the fully vetted datasets will be distributed via:
+1. **Primary Node:** Earth System Grid Federation (ESGF) input data directory.
+2. **Secondary Mirror:** Zenodo repository (assigned with a permanent DOI for proper academic citation and persistent access).
+
+## Open-Source Code Repository
+
+All algorithmic frameworks, pre-processing utilities, and dynamic boundary generation scripts curated by the DesertMIP Steering Committee are entirely open-source. 
+
+We provide these tools under an MIT License via our **GitHub Organization**. Modeling groups are encouraged to utilize our scalable pipelines to confidently regrid and ingest the dynamic forcing files into their native ESM grids:
+
+* **Interpolation Scripts:** Mass- and energy-conserving regridding utilities.
+* **Evaluation Notebooks:** Jupyter notebooks for offline verification of the forcing data prior to fully coupled execution.
+
+For access to the code base and detailed technical documentation, please visit the [DesertMIP GitHub Repository](https://github.com/EarthSystemSci/DesertMIP).
