@@ -18,4 +18,3 @@ The Steering Committee holds regular meetings to coordinate Tier-1 experimental 
 
 ## Join the Community
 Are you an ESM developer or climate scientist interested in contributing to DesertMIP? We are actively looking for collaborators to join our working groups. Please contact the co-chairs to learn about opportunities to participate.
-
