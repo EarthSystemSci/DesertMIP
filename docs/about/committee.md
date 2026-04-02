@@ -1,35 +1,21 @@
 # Steering Committee
 
+The DesertMIP framework is coordinated by an international steering committee dedicated to advancing the representation of arid environments in Earth System Models. 
+
 ## Co-Chairs
 
 | Name | Affiliation | Contact |
-|------|-------------|---------|
-| **[Name]** | [Institution] | email@example.org |
-| **[Name]** | [Institution] | email@example.org |
+| :--- | :--- | :--- |
+| **Dr. Marzieh Mokarram** | [Shiraz University] | [m.mmokarram.313@gmail.com] |
+| **Prof. [Huayu] Lu** | [Nanjing University] | [huayulu@nju.edu.cn] |
 
-## Committee Members
+## Committee Members & Advisory Board
 
-| Name | Affiliation | Role |
-|------|-------------|------|
-| [Name] | [Institution] | Member |
-| [Name] | [Institution] | Member |
-| [Name] | [Institution] | Member |
-| [Name] | [Institution] | Member |
-| [Name] | [Institution] | Member |
-
-## Advisory Board
-
-Optional section for listing advisory board members or liaisons to other groups.
-
-| Name | Affiliation |
-|------|-------------|
-| [Name] | [Institution] |
-| [Name] | [Institution] |
+*The full list of steering committee members, including representatives from partner MIPs (such as LMIP and AerChemMIP), is currently being finalized. As our working groups form ahead of the GMD paper submission, additional members will be officially announced here.*
 
 ## Meetings
-
-The Steering Committee meets [frequency] to coordinate activities. Meeting notes and agendas are available [describe where/how].
+The Steering Committee holds regular meetings to coordinate Tier-1 experimental designs, discuss cross-MIP synergies, and finalize the protocol paper.
 
 ## Join the Community
+Are you an ESM developer or climate scientist interested in contributing to DesertMIP? We are actively looking for collaborators to join our working groups. Please contact the co-chairs to learn about opportunities to participate.
 
-Interested in contributing to Your MIP? Contact the co-chairs to learn about opportunities to participate in working groups or the advisory board.
