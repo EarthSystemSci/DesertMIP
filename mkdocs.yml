@@ -9,12 +9,11 @@ use_directory_urls: true
 
 # Theme configuration
 theme:
-  name: shadcn
+  name: material
 
 # Plugins
 plugins:
   - search
-
 
 # Custom CSS and JavaScript
 extra_css:
