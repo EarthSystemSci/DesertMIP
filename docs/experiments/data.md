@@ -2,7 +2,7 @@
 
 To rigorously evaluate the impact of dynamic desertification, modeling centers participating in DesertMIP are required to output a specific set of variables. These encompass land surface changes, aerosol emissions, and standard atmospheric responses.
 
-## Requested Output Variables
+## 📊 Requested Output Variables
 
 ### High Priority Variables (Tier-1 Core Request)
 These variables are strictly required for all Tier-1 experiments (`desert-hist-dyn`, `desert-ssp245-dyn`, `desert-static-ctrl`) to capture the primary biogeophysical and aerosol feedback loop:
@@ -27,21 +27,21 @@ Highly recommended for in-depth regional sensitivity analyses and surface energy
 | `mrso` | Lmon | Monthly | Total Soil Moisture Content |
 | `rsds` | Amon | Monthly | Surface Downwelling Shortwave Radiation |
 
-## Data Submission and Publication
+## 📤 Data Submission and Publication
 
 All generated datasets must strictly adhere to WCRP CMIP7 protocols and FAIR principles.
 
-### Naming Conventions
+### 🏷️ Naming Conventions
 Files must be structured using the official CMIP7 file naming convention: 
 `<variable>_<table>_<model>_<experiment>_<variant>_<grid>_<time>.nc`
 
 *Example:* `emidust_AERmon_ModelName_desert-hist-dyn_r1i1p1f1_gn_198001-201412.nc`
 
-### Quality Control Checklists
+### ✅ Quality Control Checklists
 Before initiating the ESGF publication process, centers must verify:
- 1- Variables have been processed using the official CMOR library.
- 2- Global attributes contain accurate model and forcing configurations.
- 3- Time boundaries (`time_bnds`) are properly defined for transient runs.
- 4- Grid definitions comply with CF metadata standards.
+ 1. Variables have been processed using the official CMOR library.
+ 2. Global attributes contain accurate model and forcing configurations.
+ 3. Time boundaries (`time_bnds`) are properly defined for transient runs.
+ 4. Grid definitions comply with CF metadata standards.
 
 Publication will occur through designated local or regional ESGF nodes. Detailed credentials and the official DesertMIP Data Request (DR) JSON files will be provided post-registration.
