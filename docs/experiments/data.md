@@ -39,9 +39,9 @@ Files must be structured using the official CMIP7 file naming convention:
 
 ### Quality Control Checklists
 Before initiating the ESGF publication process, centers must verify:
- * 1- Variables have been processed using the official CMOR library.
-  *2- Global attributes contain accurate model and forcing configurations.
- * 3- Time boundaries (`time_bnds`) are properly defined for transient runs.
- * 4- Grid definitions comply with CF metadata standards.
+ * Variables have been processed using the official CMOR library.
+ * Global attributes contain accurate model and forcing configurations.
+ * Time boundaries (`time_bnds`) are properly defined for transient runs.
+ * Grid definitions comply with CF metadata standards.
 
 Publication will occur through designated local or regional ESGF nodes. Detailed credentials and the official DesertMIP Data Request (DR) JSON files will be provided post-registration.
