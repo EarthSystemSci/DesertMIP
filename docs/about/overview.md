@@ -16,7 +16,6 @@ The inclusion of dynamic boundaries addresses several fundamental gaps in curren
 ## Methodological Framework
 DesertMIP utilizes high-resolution satellite observations (e.g., ESA WorldCover, MODIS) and machine learning-driven projections to create transient datasets of bare-soil and vegetation fractions. These datasets will be provided to modeling centers to replace their default static climatologies for specific Tier-1 and Tier-2 experiments.
 
-<div align="center">
-  <img src="assets/image2.png" alt="DesertMIP Methodological Framework" style="max-width: 100%; height: auto; border-radius: 8px; margin-top: 20px;">
-  <p><em>Figure 1: DesertMIP Methodological Framework</em></p>
-</div>
+<p align="center">
+  <img src="assets/image2.png" alt="DesertMIP Conceptual Map" width="400" style="border-radius: 12px; margin: 10px 0 20px 0;">
+</p>
