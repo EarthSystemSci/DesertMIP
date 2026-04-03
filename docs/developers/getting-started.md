@@ -5,7 +5,7 @@ Welcome to the participation guide for **DesertMIP**. We actively encourage clim
 Here is the step-by-step guide on how your modeling center can participate in DesertMIP:
 
 ## Step 1: Express Interest and Register
-If your modeling center is interested in running DesertMIP experiments, please get in touch with the co-chairs (Dr. Marzieh Mokarram & Prof. Huayu Lu) to register your model. This ensures you receive the latest updates, technical support, and notifications regarding forcing data releases.
+If your modeling center is interested in running DesertMIP experiments, please get in touch with the co-chairs (Prof. Marzieh Mokarram & Prof. Huayu Lu) to register your model. This ensures you receive the latest updates, technical support, and notifications regarding forcing data releases.
 
 ## Step 2: Access the Forcing Data
 DesertMIP provides time-varying, high-resolution datasets for bare-soil and vegetation fractions to replace static climatologies.
