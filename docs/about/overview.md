@@ -19,3 +19,4 @@ DesertMIP utilizes high-resolution satellite observations (e.g., ESA WorldCover,
 <p align="center">
   <img src="assets/image2.png" alt="DesertMIP Conceptual Map" width="400" style="border-radius: 12px; margin: 10px 0 20px 0;">
 </p>
+
