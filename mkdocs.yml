@@ -1,7 +1,7 @@
 site_name: DesertMIP
 site_description: Desertification Model Intercomparison Project
-site_author: EarthSystemSci
-site_url: https://EarthSystemSci.github.io/DesertMIP/
+site_author: DesertMIP Steering Committee
+site_url: https://earthsystemsci.github.io/DesertMIP/
 repo_url: https://github.com/EarthSystemSci/DesertMIP
 repo_name: EarthSystemSci/DesertMIP
 
@@ -40,3 +40,9 @@ extra:
   version:
     provider: mike
     default: latest
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+    
