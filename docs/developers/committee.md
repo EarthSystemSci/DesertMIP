@@ -7,6 +7,10 @@ The DesertMIP framework is coordinated by an international steering committee de
   *Role:* Lead Contact & Principal Coordinator  
   *Focus:* Spatial modeling, dynamic boundary generation, and project administration within the CMIP7 framework.
 
+* **Prof. Huayu Lu**  
+  *Role:* Co-Coordinator & Scientific Advisor  
+  *Focus:* Desert evolution, climate change interactions in arid regions, and comprehensive assessment of desertification processes.
+
 *(Note: The full list of steering committee members, including co-chairs representing our partner MIPs such as LMIP and AerChemMIP, will be formally announced here as the working groups are finalized.)*
 
 ## Working Groups (WG)
