@@ -1,6 +1,6 @@
-# Publications
+# 📚 Publications
 
-## Protocol Papers (In Preparation)
+## 📜 Protocol Papers (In Preparation)
 
 The primary experimental design, scientific rationale, and forcing datasets for DesertMIP are currently being documented in our official CMIP7 protocol paper. 
 
@@ -12,7 +12,7 @@ The primary experimental design, scientific rationale, and forcing datasets for 
 
 ---
 
-## How to Cite
+## 📌 How to Cite
 
 Once the DesertMIP Tier-1 forcing datasets and the official protocol paper are published, complete citation guidelines will be provided here. 
 
@@ -23,7 +23,7 @@ When using data from DesertMIP experiments, users will be requested to cite:
 
 ---
 
-## Community Publications & Results Papers
+## 🌐 Community Publications & Results Papers
 
 As DesertMIP is a newly registered MIP for the CMIP7 cycle, results papers and community publications utilizing our datasets are expected to be published following the release of the Tier-1 simulations. 
 
