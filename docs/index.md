@@ -7,8 +7,9 @@ title: DesertMIP
 
 ---
 <p align="center">
-  <img src="banner.png" alt="DesertMIP Conceptual Map" width="400" style="border-radius: 12px; margin: 10px 0 20px 0;">
+  <img src="assets/banner.png" alt="DesertMIP Conceptual Map" width="400" style="border-radius: 12px; margin: 10px 0 20px 0;">
 </p>
+
 
 ## About DesertMIP
 
