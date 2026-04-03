@@ -4,9 +4,9 @@ Following the successful integration and execution of DesertMIP experiments, par
 
 ## CMORization and Data Standards
 To guarantee seamless inter-model comparability, all simulation outputs must strictly adhere to the CMIP7 data standards:
-* **CF-Compliant NetCDF:** All output files must follow the latest Climate and Forecast (CF) metadata conventions.
-* **CMOR Integration:** Variables must be processed using the Climate Model Output Rewriter (CMOR) to match the official DesertMIP Data Request tables.
-* **Key Variables of Interest:** While standard CMIP diagnostic outputs are required, particular emphasis must be placed on archiving high-frequency datasets for dust emission fluxes, surface albedo, leaf area index (LAI), aerosol optical depth (AOD), and surface energy balance components.
+ **CF-Compliant NetCDF:** All output files must follow the latest Climate and Forecast (CF) metadata conventions.
+ **CMOR Integration:** Variables must be processed using the Climate Model Output Rewriter (CMOR) to match the official DesertMIP Data Request tables.
+ **Key Variables of Interest:** While standard CMIP diagnostic outputs are required, particular emphasis must be placed on archiving high-frequency datasets for dust emission fluxes, surface albedo, leaf area index (LAI), aerosol optical depth (AOD), and surface energy balance components.
 
 ## Submission Pathways
 DesertMIP is fully committed to the FAIR (Findable, Accessible, Interoperable, and Reusable) data principles.
@@ -15,7 +15,7 @@ DesertMIP is fully committed to the FAIR (Findable, Accessible, Interoperable, a
 
 ## Collaborative Open Science and Diagnostics
 DesertMIP is not just a set of forcing data; it is a collaborative scientific framework. We actively encourage the international community to contribute to our shared diagnostic efforts:
-* **Community Analysis Tools:** Scientists and developers are invited to submit their post-processing scripts, multi-variate evaluation pipelines, and machine learning diagnostic models to the DesertMIP [GitHub Repository](https://github.com/EarthSystemSci/DesertMIP).
-* **Pull Requests:** All community-contributed tools and scripts undergo peer review via standard GitHub Pull Requests to ensure robust, reproducible, and transparent scientific workflows.
+ **Community Analysis Tools:** Scientists and developers are invited to submit their post-processing scripts, multi-variate evaluation pipelines, and machine learning diagnostic models to the DesertMIP [GitHub Repository](https://github.com/EarthSystemSci/DesertMIP).
+ **Pull Requests:** All community-contributed tools and scripts undergo peer review via standard GitHub Pull Requests to ensure robust, reproducible, and transparent scientific workflows.
 
 Detailed instructions regarding ESGF node credentials, customized CMOR tables, and the official data submission timeline will be disseminated to registered modeling centers in due course.
