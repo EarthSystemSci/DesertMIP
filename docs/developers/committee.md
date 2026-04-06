@@ -11,6 +11,11 @@ The DesertMIP framework is coordinated by an international steering committee de
   *Role:* Co-Coordinator & Scientific Advisor  
   *Focus:* Desert evolution, climate change interactions in arid regions, and comprehensive assessment of desertification processes.
 
+* **Dr. Mohammad Jafar**  
+  *Role:* Co-Coordinator  
+  *Focus:* Modeling and prediction using deep learning and advanced data-driven approaches.
+
+
 *(Note: The full list of steering committee members, including co-chairs representing our partner MIPs such as LMIP and AerChemMIP, will be formally announced here as the working groups are finalized.)*
 
 ## 👥 Working Groups (WG)
