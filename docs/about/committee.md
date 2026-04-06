@@ -8,6 +8,8 @@ The DesertMIP framework is coordinated by an international steering committee de
 | :--- | :--- | :--- |
 | **Prof. Marzieh Mokarram** | Shiraz University | <m.mmokarram.313@gmail.com> |
 | **Prof. Huayu Lu** | Nanjing University | <huayulu@nju.edu.cn> |
+| **Dr. Mohammad Jafar** | Anhui Xinhua University | <mjmokarram@axhu.edu.cn> |
+
 
 ## 🤝 Committee Members & Advisory Board
 
