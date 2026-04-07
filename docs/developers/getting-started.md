@@ -1,22 +1,23 @@
 # Getting Started
 
-Welcome to the participation guide for DesertMIP. We actively encourage climate modeling groups participating in the CMIP7 cycle to incorporate our dynamic desert boundary datasets into their experimental runs.
+Welcome to the participation overview for DesertMIP. Climate modeling groups participating in the CMIP7 cycle are actively encouraged to incorporate our transient surface boundary datasets into their experimental runs. 
 
-Here is the step-by-step guide on how your modeling center can participate in DesertMIP:
+The general workflow for a modeling center's participation in DesertMIP involves the following phases:
 
-## 📝 Step 1: Express Interest and Register
-If your modeling center is interested in running DesertMIP experiments, please get in touch with the co-chairs (Prof. Marzieh Mokarram & Prof. Huayu Lu) to register your model. This ensures you receive the latest updates, technical support, and notifications regarding forcing data releases.
+## 📝 Phase 1: Registration and Expression of Interest
+Modeling centers interested in conducting DesertMIP experiments can initiate their participation by getting in touch with the coordinating team (Prof. Marzieh Mokarram, Prof. Huayu Lu, and Dr. Mohammad Jafar) to register their model. This coordination ensures that participating groups receive the latest updates, technical support, and notifications regarding forcing data releases.
 
-## 📥 Step 2: Access the Forcing Data
-DesertMIP provides time-varying, high-resolution datasets for bare-soil and vegetation fractions to replace static climatologies. 
-* **Current Status:** The Tier-1 forcing datasets are currently undergoing final quality control and validation. 
-* **Download Access:** Once finalized, all datasets will be hosted publicly on ESGF nodes and mirrored on Zenodo for easy access. Download links, `wget` scripts, and Python APIs will be provided on the Resources page.
+## 📥 Phase 2: Data Access and Harmonization
+DesertMIP provides time-varying, high-resolution datasets for bare-soil and vegetation fractions designed to replace conventional static climatologies.
 
-## ⚙️ Step 3: Experimental Setup
-Modeling centers are required to integrate our dynamic forcing into their land-surface and atmospheric modules. Please review the Experiments page for detailed mathematical formulations and the specific protocols for `desert-hist-dyn` and future SSP scenarios. Ensure synergy with your LUMIP and AerChemMIP configurations, as these interactions are crucial for evaluating dust-radiation feedbacks.
+* **Current Status:** The Tier-1 forcing datasets are currently undergoing final quality control and validation processes.
+* **Data Access:** Upon finalization, all datasets will be hosted publicly on ESGF nodes and mirrored on Zenodo for robust access. Necessary resources, including download links, wget scripts, and Python APIs, will be made available on the Resources page.
 
-## 📤 Step 4: Output Submission and CMORization
-To ensure consistency across all participating models, all outputs must comply with standard CMIP7 data formats. Variables must be CMORized according to the official CMIP7 Data Request. Detailed instructions for uploading your model results to the Earth System Grid Federation (ESGF) will be provided closer to the submission phase.
+## ⚙️ Phase 3: Experimental Configuration
+During this phase, participating centers will integrate the dynamic forcing datasets into their respective land-surface and atmospheric modules. Detailed mathematical formulations and specific protocols for `desert-hist-dyn` and future SSP scenarios are outlined on the Experiments page. Synergetic configurations with LMIP and AerChemMIP are highly anticipated, as these integrations are crucial for evaluating subsequent thermodynamic and dust-radiation feedbacks.
 
-## 🛠️ Technical Support
-If you encounter technical issues regarding the implementation of the forcing datasets, regridding processes, or model integration, please open an issue on our GitHub Repository or reach out to the project's technical team.
+## 📤 Phase 4: Output Harmonization and Submission
+To maintain analytical consistency across all participating models, the resulting outputs are expected to comply with standard CMIP7 data formats. Variables will be CMORized in accordance with the official CMIP7 Data Request. Comprehensive instructions for standardizing and uploading model results to the Earth System Grid Federation (ESGF) infrastructure will be provided as the submission phase approaches.
+
+## 🛠️ Technical Support and Collaboration
+For any technical considerations regarding the implementation of the forcing datasets, regridding processes, or model integration, participating teams can utilize the project's GitHub Repository to track issues or correspond directly with the technical support team.
