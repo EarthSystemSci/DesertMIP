@@ -12,6 +12,7 @@ We welcome climate modelers, data scientists, and researchers to join our initia
 [📝 Register your Interest (EoI)](https://docs.google.com/forms/d/e/1FAIpQLSe9wgnond3HD4vixEc5dkXPMl5N7j9YG0GolDQU838yvBhN1w/viewform?usp=publish-editor){: .md-button .md-button--primary }
 
 ---
+
 <p align="center">
   <img src="assets/banner.png" alt="DesertMIP Conceptual Map" width="400" style="border-radius: 12px; margin: 10px 0 20px 0;">
 </p>
