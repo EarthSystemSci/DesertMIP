@@ -39,6 +39,6 @@ DesertMIP strongly aligns with the broader CMIP7 objectives. We provide the miss
 ## 🤝 Join the DesertMIP Initiative
 Interested in collaborating or running DesertMIP experiments? Fill out our Expression of Interest (EoI) form below:
 <br>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSe9wgnond3HD4vixEc5dkXPMl5N7j9YG0GolDQU838yvBhN1w/viewform?usp=publish-editor" target="_blank" class="md-button md-button--primary">📝 Register your Interest (EoI)</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScS7CKoHVDKFG7LJF0Od0g_mP4TwRvqzVHJhD_JB_iQhDeLtg/viewform?usp=publish-editor" target="_blank" class="md-button md-button--primary">📝 Register your Interest (EoI)</a>
 <br><br>
 
