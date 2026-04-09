@@ -9,7 +9,9 @@ title: DesertMIP
 
 We welcome climate modelers, data scientists, and researchers to join our initiative. If you are interested in collaborating, running DesertMIP experiments, or staying updated with our protocol, please fill out our Expression of Interest form:
 
-[📝 Register your Interest (EoI)](https://docs.google.com/forms/d/e/1FAIpQLSe9wgnond3HD4vixEc5dkXPMl5N7j9YG0GolDQU838yvBhN1w/viewform?usp=publish-editor){: .md-button .md-button--primary }
+<br>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSe9wgnond3HD4vixEc5dkXPMl5N7j9YG0GolDQU838yvBhN1w/viewform?usp=publish-editor" target="_blank" class="md-button md-button--primary">📝 Register your Interest (EoI)</a>
+<br><br>
 
 ---
 
