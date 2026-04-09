@@ -5,8 +5,6 @@ title: DesertMIP
 ## 🌍 Desertification Model Intercomparison Project
 **A MIP registered with the WCRP-CMIP7 framework**
 
-## 🤝 Join the DesertMIP Initiative
-
 ---
 <p align="center">
   <img src="assets/banner.png" alt="DesertMIP Conceptual Map" width="400" style="border-radius: 12px; margin: 10px 0 20px 0;">
@@ -38,6 +36,7 @@ DesertMIP strongly aligns with the broader CMIP7 objectives. We provide the miss
 ## 👥 Steering Committee & Contact
 **Lead Contact:** Marzieh Mokarram (On behalf of the DesertMIP Steering Committee)
 
+## 🤝 Join the DesertMIP Initiative
 Interested in collaborating or running DesertMIP experiments? Fill out our Expression of Interest (EoI) form below:
 <br>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9wgnond3HD4vixEc5dkXPMl5N7j9YG0GolDQU838yvBhN1w/viewform?usp=publish-editor" target="_blank" class="md-button md-button--primary">📝 Register your Interest (EoI)</a>
